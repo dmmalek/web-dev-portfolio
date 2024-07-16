@@ -4,12 +4,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* shared style  */
+h3 {
+  color: rgb(71, 71, 71);
+}
+h1 {
+  color: rgb(24, 24, 24);
+}
+p {
+  color: rgb(117, 117, 117);
+}
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+.header {
+  padding: 0px 150px;
+  background-color: rgb(255, 248, 243);
 }
 .btn-primary {
   text-decoration: none;
@@ -23,7 +38,6 @@
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: 0px 200px;
 }
 .hero > h1 {
   font-size: 40px;
@@ -39,4 +53,25 @@
 }
 .nav-links > li {
   padding: 20px 40px;
+}
+
+/* Start Banner Section */
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-description > h3 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 48px;
+}
+.banner-description > h1 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+}
+.banner-description > p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
 }
