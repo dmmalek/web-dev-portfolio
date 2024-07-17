@@ -142,4 +142,23 @@ main {
 }
 
 /* about me ends here  */
+
+/* WhatIDo start here  */
+.what-i-do-description {
+  padding: 60px 70px;
+  text-align: center;
+}
+.what-i-do-description h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.what-i-do-description p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+/* WhatIDo ends here  */
 /* main end here  */
