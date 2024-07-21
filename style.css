@@ -224,3 +224,45 @@ hr {
 }
 /* resume section ends here  */
 /* main end here  */
+/* footer start here  */
+footer {
+  margin-top: 4rem;
+  padding: 6rem 10rem;
+  background-color: rgb(241, 226, 196, 0.3);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+footer h2 {
+  font-size: 2rem;
+  margin: 20px 0px;
+}
+.lets-connect-desc {
+  font-size: 15px;
+  font-weight: 100;
+  /* color: black; */
+  margin: 20px 0px;
+}
+/* .lets-message {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+} */
+input,
+textarea {
+  margin: 1rem 0px;
+  padding: 1rem;
+  font-size: 1rem;
+}
+input[type="text"],
+[type="email"] {
+  width: 400px;
+}
+textarea {
+  height: 150px;
+  width: 400px;
+}
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+/* footer ends here  */
