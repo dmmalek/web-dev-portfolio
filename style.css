@@ -161,4 +161,66 @@ main {
   margin-top: 20px;
 }
 /* WhatIDo ends here  */
+/* card start here  */
+.card {
+  display: flex;
+  gap: 20px;
+}
+.card-details {
+  text-align: left;
+  padding: 20px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.card-details > h4 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.card-details > p {
+  margin-top: 20px;
+  font-weight: 200;
+  line-height: 30px;
+}
+/* card ends here  */
+/* resume section start here  */
+
+.resume h1 {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.resume-details {
+  margin-top: 4rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 20px;
+}
+.resume-details h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.resume-details h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+.resume-details h4,
+hr {
+  margin-top: 1rem;
+  opacity: 0.8;
+}
+.resume-details p {
+  margin: 1.5rem 0px;
+  font-weight: 100;
+  line-height: 30px;
+  text-align: left;
+}
+.resume-btn {
+  display: block;
+  margin: 0 auto;
+}
+/* resume section ends here  */
 /* main end here  */
