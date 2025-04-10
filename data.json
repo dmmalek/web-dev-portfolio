@@ -1,0 +1,106 @@
+{
+	"banner": {
+		"greeting": "Hi, I am",
+		"name": "Abdul Malek",
+		"description": "Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments."
+	},
+	"about": {
+		"title": "About Me",
+		"description": "I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.",
+		"details": {
+			"name": "Abdul Malek",
+			"email": "abdulmalekmonir97@gmail.com",
+			"dob": "15 August 1997",
+			"location": "Dhaka,Bangladesh"
+		}
+	},
+	"skills": {
+		"title": "What I Do",
+		"description": "I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.",
+		"items": [
+			{
+				"icon": "./images/icons/js.png",
+				"title": "Vanilla JavaScript",
+				"description": "List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor"
+			},
+			{
+				"icon": "./images/icons/react.png",
+				"title": "React",
+				"description": "List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor."
+			},
+			{
+				"icon": "./images/icons/nodejs.png",
+				"title": "Node.js",
+				"description": "List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor."
+			},
+			{
+				"icon": "./images/icons/mongo.png",
+				"title": "MongoDB",
+				"description": "List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor."
+			}
+		]
+	},
+	"resume": {
+		"title": "A summary of My Resume",
+		"education": [
+			{
+				"degree": "Master in Computer Engineering",
+				"institution": "Harvard University / 2015 2017",
+				"description": "List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor."
+			},
+			{
+				"degree": "Master in Computer Engineering",
+				"institution": "Harvard University / 2015 2017",
+				"description": "List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor."
+			},
+			{
+				"degree": "Master in Computer Engineering",
+				"institution": "Harvard University / 2015 2017",
+				"description": "List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor."
+			}
+		],
+		"experience": [
+			{
+				"position": "Sr. Font End Developer",
+				"company": "Apple Inc / 2020 Current",
+				"description": "List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor."
+			},
+			{
+				"position": "Sr. Font End Developer",
+				"company": "Apple Inc / 2020 Current",
+				"description": "List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor."
+			},
+			{
+				"position": "Sr. Font End Developer",
+				"company": "Apple Inc / 2020 Current",
+				"description": "List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor."
+			}
+		]
+	},
+"projects": {
+	"title": "My Projects",
+	"description": "Here are some of my recent projects that showcase my skills and expertise.",
+	"items": [
+		{
+			"image": "https://sajib-hossain.vercel.app/portfolio/easyitpoint.webp",
+			"name": "Agency",
+			"description": "A modern digital agency website featuring service offerings, client portfolios, and contact solutions designed to attract new business opportunities."
+		},
+		{
+			"image": "https://sajib-hossain.vercel.app/portfolio/saj-crypto.webp",
+			"name": "Crypto App",
+			"description": "A cryptocurrency tracking application with real-time price data, portfolio management, and market trend visualization tools for crypto enthusiasts."
+		},
+		{
+			"image": "https://sajib-hossain.vercel.app/portfolio/saj-estate.webp",
+			"name": "Real Estate",
+			"description": "A comprehensive real estate platform showcasing property listings with advanced search filters, virtual tours, and agent contact capabilities."
+		},
+		{
+			"image": "https://sajib-hossain.vercel.app/portfolio/job-hunting.webp",
+			"name": "Job Tracking",
+			"description": "A job application management system that helps users organize their job search, track applications, and monitor interview progress."
+		}
+	]
+}
+}
