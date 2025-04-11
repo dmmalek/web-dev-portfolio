@@ -10,17 +10,17 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body class="open-sans-font">
     <header class="header">
       <nav class="hero">
         <h1>Abdul <span class="hero-logo">M.</span></h1>
         <div>
           <ul class="nav-links">
-            <li>Portfolio</li>
-            <li>Blog</li>
-            <li>
-              <a href=""><button class="btn-primary">Hire Me</button></a>
-            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -44,12 +44,16 @@
           </div>
         </div>
         <div class="banner-image">
-          <img class="banner-image-pic" src="./images/hardy.png" alt="Hardy" />
+          <img
+            class="banner-image-pic"
+            src="./images/Abdul_Malek_2.png"
+            alt="Hardy"
+          />
         </div>
       </section>
     </header>
     <main>
-      <section class="about-me">
+      <section class="about-me" id="about">
         <h1>About Me</h1>
         <p>
           I, m a designer & developer with a passion for web design. I enjoy
@@ -88,7 +92,8 @@
           </p>
         </div>
       </section>
-      <section class="card">
+
+      <section class="card" id="skills">
         <div class="card-details">
           <img src="./images/icons/js.png" alt="JavaScript" />
           <h4>Vanilla JavaScript</h4>
@@ -124,6 +129,19 @@
             of the 1500+ FontAwesome 5 free icons available. Aenean commodo
             ligula eget dolor.
           </p>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="projects-header">
+          <h1>My Projects</h1>
+          <p>
+            Here are some of my recent projects that showcase my skills and
+            expertise.
+          </p>
+        </div>
+        <div class="projects-grid" id="projects-container">
+          <!-- Projects will be dynamically inserted here by JavaScript -->
         </div>
       </section>
 
@@ -203,7 +221,7 @@
         </button>
       </section>
     </main>
-    <footer>
+    <footer id="contact-me">
       <div class="lets-connect">
         <h2>Lets Connect</h2>
         <p class="lets-connect-desc">
@@ -237,6 +255,7 @@
           <input class="btn-primary" type="submit" value="Submit" />
         </form>
       </div>
+      <script defer src="script.js"></script>
     </footer>
   </body>
 </html>
